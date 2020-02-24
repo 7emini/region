@@ -1,6 +1,8 @@
 # region
 PHP+Ajax+MySQL 实现省市区三级联动
 
+![](region.png)
+
 ```
 .
 ├── conn.inc.php 
