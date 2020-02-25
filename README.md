@@ -1,6 +1,6 @@
 # region
 
-PHP+Ajax+MySQL 实现省市区三级联动
+[PHP+Ajax+MySQL 实现省市区三级联动](https://github.com/7emini/region)
 
 ![](region.png)
 
