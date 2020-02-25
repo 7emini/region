@@ -1,14 +1,22 @@
 # region
+
 PHP+Ajax+MySQL 实现省市区三级联动
 
 ![](region.png)
 
 ```
 .
-├── conn.inc.php 
-├── jquery-3.4.1.js
-├── mysqli.php 
-├── region.html
+├── README.md
+├── app
+│   ├── conn.inc.php
+│   ├── mysqli.php
+│   └── region_action.php 
+├── public
+│   ├── index.html
+│   ├── region.css
+│   └── region.js
+├── region.png
 ├── region.sql
-└── region_action.php
+└── src
+    └── jquery-3.4.1.js
 ```
