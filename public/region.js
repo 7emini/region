@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(function () {
     //  加载所有的省份
     $.ajax({
         type: "get",
