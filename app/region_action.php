@@ -13,8 +13,12 @@ if ($type == "" || $parent_id == "") {
         $arr=[];
         while ($row=$result->fetch_assoc())
         {
-            $arr[$row["region_id"]]['region_id']=$row["region_id"];//$arr[1]["title"]=$row["title"]
-            $arr[$row["region_id"]]['region_name']=$row["region_name"];//$arr[1]["content"]=$arr["content"]
+        // "167": {
+        //     "region_id": "167",
+        //     "region_name": "哈尔滨"
+        // },
+            $arr[$row["region_id"]]['region_id']=$row["region_id"];
+            $arr[$row["region_id"]]['region_name']=$row["region_name"];
         }
     }
     $provinces_json = json_encode($arr);
